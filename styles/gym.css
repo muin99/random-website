@@ -1,0 +1,364 @@
+/* General styles */
+html{
+    background-color: black;
+}
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.spc-btw {
+    justify-content: space-between;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.orange {
+    color: #E6533C;
+}
+
+.bg-color-org {
+    background-color: #E6533C;
+}
+
+.text-gray {
+    color: #FFFFFF;
+}
+
+.foot-brand {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+/* Navbar */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+/* Header */
+.head-back {
+    background-color: darkslategray;
+    padding: 50px 10%;
+}
+
+.body-1 {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-body {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.join-btn,
+.dw-btn {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 42px;
+    border: 10px solid #E6533C;
+}
+
+.dw-btn {
+    border-color: black;
+    background-color: black;
+}
+
+.builder-img {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.free-vid,
+.vid-tutorial {
+    position: absolute;
+    background-color: lightslategray;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px;
+}
+
+.free-vid {
+    top: 10%;
+    right: 10%;
+}
+
+.vid-tutorial {
+    bottom: 10%;
+    left: 10%;
+}
+
+/* Change Your Habits section */
+.habit-sect {
+
+    text-align: center;
+    padding: 20px 0;
+}
+
+.habit-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.habits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.habits img{
+    border-radius: 50%;
+}
+
+.habits div {
+    flex-basis: 200px;
+    text-align: center;
+}
+
+/* Run an Extra Mile section */
+.main-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    background-color: #222222;
+}
+
+.run-header {
+    padding-left: 40px;
+}
+
+.run {
+    flex: 1 1 300px;
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+/* BMI Calculator */
+.bmi-parent {
+    background-color: rgba(34, 34, 34, 1);
+    padding: 20px 10px;
+}
+
+.bmi-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bmi-container {
+    flex: 1 1 300px;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 12px;
+    
+
+}
+
+td {
+    border: solid 1px rgba(128, 128, 128, 0.178);
+    padding: 10px 23px;
+    color: white;
+}
+
+th {
+    border: solid 1px rgba(128, 128, 128, 0.178);
+    padding: 15px 23px;
+    color: white;
+}
+
+td {
+    opacity: 0.4;
+}
+.calc-form{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    width: 45%;
+    gap: 5px;
+}
+#height{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+#weight{
+    grid-column: 2;
+    grid-row: 1;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+#age{
+    grid-column: 1;
+    grid-row: 2;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+#sex{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+#activity-factor{
+    grid-column: span 2;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+.calc-submit{
+    padding: 10px 15px;
+    border-radius: 40px;
+    background-color: #E6533C;
+    border: none;
+}
+
+
+
+
+/* Trainers section */
+.team{
+    text-align: center;
+}
+.trn-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+
+}
+.trn-info{
+    margin: 10px;
+}
+
+.trn-card h3{
+    
+    margin-bottom: 10px;
+}
+.trn-card p{
+    margin: 0px;
+    opacity: 0.4;
+}
+
+.trn {
+
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.trn-card {
+    width: 22vw;
+    height: 22vw;
+    border-radius: 10px;
+    background-color: #1C1C1C;
+    background-size: cover;
+}
+
+.trn-img{
+    margin-top: 10px;
+    gap: 10px
+    ;
+}
+/* Footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: #222222;
+}
+
+.rights {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 576px) {
+    .nav-links{
+        display: none;
+    }
+    .builder-img{
+        margin-right: 50px;
+    }
+    .free-vid{
+        margin-right: -85px;
+    }
+    .w
+    .navbar {
+        flex-direction: column;
+    }
+
+    .body-1 {
+        flex-direction: column;
+    }
+    .run img{
+        width: 100%;
+
+    }
+    .run{
+        padding: 10px;
+    }
+    
+
+    .habits {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .bmi-div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .trn {
+        grid-template-columns: 1fr;
+    }
+    .trn-img{
+        display: block;
+        
+    }
+
+    .trn-card{
+        width: 65vw;
+        height: 65vw;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
