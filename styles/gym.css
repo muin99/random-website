@@ -12,6 +12,9 @@ main {
     display: flex;
 }
 
+.menu{
+    display: none;
+}
 .spc-btw {
     justify-content: space-between;
 }
@@ -309,6 +312,9 @@ footer {
 /* Responsive styles */
 
 @media screen and (max-width: 576px) {
+    .menu{
+        display: inline-block;
+    }
     .nav-links{
         display: none;
     }
@@ -359,6 +365,8 @@ footer {
     }
     footer {
         flex-direction: column;
-        text-align: center;
+    }
+    .footer-2{
+
     }
 }
